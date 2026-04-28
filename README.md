@@ -88,10 +88,52 @@ Go back into the Azure portal. Go to the Linux-VM -> Networking -> Network Setti
 <br />
 
 <p>
-
+<img width="564" height="858" alt="image" src="https://github.com/user-attachments/assets/23f2c189-cec6-47d4-a108-fb1ec3e6cfc0" />
 </p>
 <p>
+In Inbound security rules verify the following to deny ICMP traffic:
+  
+  - Source: Any
+  - Destination: Any
+  - Destination Port Range: *
+  - Protocol: ICMPv4
+  - Action: Deny
+  - Priority: 290
+  - Name: DenyICMP
 
+Click Add.
+</p>
+<br />
+
+<p>
+<img width="1068" height="750" alt="image" src="https://github.com/user-attachments/assets/7d4fc099-7af4-46ed-ab28-6bd596edb30b" />
+</p>
+<p>
+Back into the Windows 10 Virtual Machine observe in Powershell that the pings are now timing out. 
+</p>
+<br />
+
+<p>
+<img width="1606" height="177" alt="image" src="https://github.com/user-attachments/assets/4107f8ba-93d3-46e5-9bba-0466e88ba879" />
+</p>
+<p>
+In the Azure portal delete the previously created security rule that denied ICMP traffic (mine was "DenyICMP").
+</p>
+<br />
+
+<p>
+<img width="1365" height="714" alt="image" src="https://github.com/user-attachments/assets/30b4425f-ed95-4c51-a78d-c1713d8714d2" />
+</p>
+<p>
+Obsersve that you are receiving replies from the Linux-VM once again. This shows NSGs function as a firewall by controlling traffic between connected networking systems. 
+</p>
+<br />
+
+<p>
+<img width="436" height="92" alt="image" src="https://github.com/user-attachments/assets/0b2ad151-51e0-4990-be4e-bfa053290d2c" />
+</p>
+<p>
+In Powershell do "Ctrl + C" to stop the ping.
 </p>
 <br />
 
@@ -99,6 +141,6 @@ Go back into the Azure portal. Go to the Linux-VM -> Networking -> Network Setti
 
 </p>
 <p>
-
+ 
 </p>
 <br />
