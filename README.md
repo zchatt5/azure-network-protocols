@@ -137,6 +137,139 @@ In Powershell do "Ctrl + C" to stop the ping.
 </p>
 <br />
 
+**4. SSH Connection/Traffic**
+<p>
+<img width="1903" height="575" alt="image" src="https://github.com/user-attachments/assets/37e04b78-0ced-4d8e-9891-b1941b2ec4cc" />
+</p>
+<p>
+ In Wireshark add a filter to only show "ssh" traffic.
+</p>
+<br />
+
+<p>
+<img width="1780" height="985" alt="image" src="https://github.com/user-attachments/assets/7e01a70f-845a-4bbc-bda7-2f2d6c8da9ba" />
+</p>
+<p>
+ In Azure get the private IP address of the "Linux-VM". Back in the Windows-VM open powershell. Establish a SSH connection using PowerShell with the following command: ssh labusers@*ip*. Enter the correct username and password to succesfully connect to the Linux virtual machine. 
+</p>
+<br />
+
+<p>
+<img width="1749" height="819" alt="image" src="https://github.com/user-attachments/assets/89e36dcf-c44e-47a7-b1e7-de7670d2b7c9" />
+</p>
+<p>
+ In PowerShell I typed various commands (id, hostname, uname-a.) Observe the SSH traffic in Wireshark to show communication between the two systems was successful and encrypted. Once finished observing, type exit and press Enter to close the SSH connection. 
+</p>
+<br />
+
+**5. DHCP Traffic**
+<p>
+<img width="714" height="346" alt="image" src="https://github.com/user-attachments/assets/5f23d714-dafe-4643-986c-afdcca40b073" />
+</p>
+<p>
+ In Wireshark filter for "dhcp" traffic.
+</p>
+<br />
+
+<p>
+<img width="1765" height="966" alt="image" src="https://github.com/user-attachments/assets/1c9094bc-bde4-4dc0-a06a-5a8dc9376cfe" />
+</p>
+<p>
+ In PowerShell enter the command "ipconfig /renew" to request a new IP address from the DHCP server. Observe the DHCP traffic that appeared in Wireshark. The DHCP server assigns IP addresses and network configurations.
+</p>
+<br />
+
+**6. DNS Traffic**
+<p>
+<img width="833" height="505" alt="image" src="https://github.com/user-attachments/assets/2ee10455-b45c-453b-8492-f91c5774616f" />
+</p>
+<p>
+ In Wireshark filter for "dns" traffic.
+</p>
+<br />
+
+<p>
+<img width="1442" height="902" alt="image" src="https://github.com/user-attachments/assets/5fcb8c32-2a40-4e7d-b00b-6c455f27265b" />
+<img width="304" height="133" alt="image" src="https://github.com/user-attachments/assets/adb82349-6820-44d3-ba79-b2b3739e15ce" />
+</p>
+<p>
+ In PowerShell enter the command "nslookup disney.com". The DNS server returns the IP address for disney.com. Observe the traffic in Wireshark. DNS is used to translate domain names into IP addresses. 
+</p>
+<br />
+
+**7. RDP Traffic**
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
+<p>
+
+</p>
+<p>
+ 
+</p>
+<br />
+
 <p>
 
 </p>
