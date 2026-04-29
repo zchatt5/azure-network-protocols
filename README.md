@@ -202,7 +202,7 @@ In Powershell do "Ctrl + C" to stop the ping.
 <img width="1583" height="816" alt="image" src="https://github.com/user-attachments/assets/f4b084c4-2040-4a56-99c7-c0f31fd6430d" />
 </p>
 <p>
- In Wireshark filter for RDP traffic by entering the port (tcp.port 3389). Observe the spam because you are constantly being streamed the image from the virtual machine.
+ In Wireshark filter for RDP traffic by entering the port (tcp.port 3389). Observe the spam because you are constantly being streamed the image from the virtual machine in real time. Every mouse movment, key stroke, etc. will give you feedback in Wireshark.
 </p>
 <br />
 
