@@ -199,81 +199,17 @@ In Powershell do "Ctrl + C" to stop the ping.
 
 **7. RDP Traffic**
 <p>
-
+<img width="1583" height="816" alt="image" src="https://github.com/user-attachments/assets/f4b084c4-2040-4a56-99c7-c0f31fd6430d" />
 </p>
 <p>
- 
+ In Wireshark filter for RDP traffic by entering the port (tcp.port 3389). Observe the spam because you are constantly being streamed the image from the virtual machine.
 </p>
 <br />
 
-<p>
 
-</p>
-<p>
- 
-</p>
-<br />
+**End of Project**
 
 <p>
+  This project deomonstrates a understanding of how network traffic flows and how security configurations help control and protect systems. Within Azure this allows us to show how vitual machines communicate with each other on the same network and how security tools like Netowrk Security Groups limit what comes and go inside the machine. This helps build the knowledge of how various protocols function and understanding how protocols transmit information. Hope you enjoyed. 
+</p>
 
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
- 
-</p>
-<br />
