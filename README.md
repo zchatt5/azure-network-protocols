@@ -210,6 +210,6 @@ In Powershell do "Ctrl + C" to stop the ping.
 **End of Project**
 
 <p>
-  This project deomonstrates a understanding of how network traffic flows and how security configurations help control and protect systems. Within Azure this allows us to show how vitual machines communicate with each other on the same network and how security tools like Netowrk Security Groups limit what comes and go inside the machine. This helps build the knowledge of how various protocols function and understanding how protocols transmit information. Hope you enjoyed. 
+  This project deomonstrates a understanding of how network traffic flows and how security configurations help control and protect systems. Within Azure this allows us to show how vitual machines communicate with each other on the same network and how security tools like Netowrk Security Groups limit what comes and go inside the machine. This helps build the knowledge of how various protocols function and understanding how protocols transmit information. Hope you enjoyed! 
 </p>
 
